@@ -40,6 +40,25 @@ The dataset is organized into modality-wise and center-wise folders, each contai
     ├── images/
     └── annotations/
 </pre>
+
+**Dataset samples**
+
+<p align="center">
+<img src="dataset_samples.jpg">
+</p>
+
+## Results
+ ***Qualitative results comparison of the SOTA methods*** <br/>
+<p align="center">
+<img src="dataset_results.png">
+</p>
+
+
+****Polyp detection results ****<br/>
+<p align="center">
+<img src="polyp-detection.jpg">
+</p>
+
     
 **Usage**
 To use this dataset, you can clone this repository and download the dataset from the official download link.
