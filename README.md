@@ -1,6 +1,4 @@
-**PolypDB: A Curated Multi-Center Dataset for Development of AI Algorithms in Colonoscopy**
- 
- 
+*****PolypDB: A Curated Multi-Center Dataset for Development of AI Algorithms in Colonoscopy*****
 
 **Overview**
 
@@ -10,23 +8,23 @@ PolypDB addresses the critical need for robust and generalizable data for develo
 
 **Features**
 
-Multi-Modality Data: Includes images from BLI, FICE, LCI, NBI, and WLI modalities.
+**Multi-Modality Data:** Includes images from BLI, FICE, LCI, NBI, and WLI modalities.
 
-Multi-Center Data: Sourced from three medical centers in Norway, Sweden, and Vietnam.
+**Multi-Center Data:** Sourced from three medical centers in Norway, Sweden, and Vietnam.
 
-High-Quality Annotations: Verified by a team of 10 gastroenterologists with over 10 years of experience.
+**High-Quality Annotations:** Verified by a team of 10 gastroenterologists with over 10 years of experience.
 
-Comprehensive Benchmarking: Includes benchmark results on eight popular segmentation methods and six standard detection methods.
+**Comprehensive Benchmarking:** Includes benchmark results on eight popular segmentation methods and six standard detection methods.
 
-Publicly Accessible: The dataset is open for research and educational purposes. Download it here.
+**Publicly Accessible:** The dataset is open for research and educational purposes. Download it here.
 
 **Dataset Structure**
+
 The dataset is organized into modality-wise and center-wise folders, each containing images and their corresponding ground truth annotations:
 
-
-
 **PolypDB/**
-├── BLI/
+<pre>
+ ├── BLI/
 │   ├── images/
 │   └── annotations/
 ├── FICE/
@@ -41,7 +39,7 @@ The dataset is organized into modality-wise and center-wise folders, each contai
 └── WLI/
     ├── images/
     └── annotations/
-
+</pre>
     
 **Usage**
 To use this dataset, you can clone this repository and download the dataset from the official download link.
@@ -49,19 +47,30 @@ To use this dataset, you can clone this repository and download the dataset from
 **Download the dataset:**
 
 *Download the dataset and place it in the corresponding directories.*
+Here is the url to the dataset
+
 ***If you use PolypDB in your research, please cite the following paper:**
 
-@article{Jha2024PolypDB,
-  author = {Debesh Jha and Nikhil Kumar Tomar and Vanshali Sharma and Quoc-Huy Trinh and Koushik Biswas and Hongyi Pan and Ritika K. Jha and Gorkem Durak and Alexander Hann and Jonas Varkey and Hang Viet Dao and Long Van Dao and Binh Phuc Nguyen and Khanh Cong Pham and Quang Trung Tran and Nikolaos Papachrysos and Brandon Rieders and Peter Thelin Schmidt and Enrik Geissler and Tyler Berzin and P{\aa}l Halvorsen and Michael A. Rieg
-
-
-
-
 **Contributing**
+
 We welcome contributions to PolypDB! If you have any suggestions or improvements, please feel free to submit a pull request or open an issue.
 
 **License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+**Citations**
+
+<pre>
+ @article{Jha2024PolypDB,
+  author = {Debesh Jha and et al.},
+  title = {PolypDB: A Curated Multi-Center Dataset for Development of AI Algorithms in Colonoscopy},
+  journal = {Arxiv},
+  year = {2024},
+  doi = {10.1109/TMI.2024.1234567}
+} 
+</pre>
+
 **Contact**
+
 For any inquiries, please contact Debesh Jha (debesh.jha@usd.edu).
