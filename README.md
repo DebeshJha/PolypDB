@@ -6,23 +6,20 @@ PolypDB is a large-scale, multi-center, and multi-modality dataset designed for 
 
 PolypDB addresses the critical need for robust and generalizable data for developing computer-aided diagnosis (CAD) systems. This dataset is publicly available and is designed to facilitate research and development in the medical AI community.
 
-**Features**
+**<u>Features</u>**
 
-**Multi-Modality Data:** Includes images from BLI, FICE, LCI, NBI, and WLI modalities.
+- **Multi-Modality Data**: Includes images from BLI, FICE, LCI, NBI, and WLI modalities.
+- **Multi-Center Data**: Sourced from three medical centers in Norway, Sweden, and Vietnam.
+- **High-Quality Annotations**: Verified by a team of 10 gastroenterologists with over 10 years of experience.
+- **Comprehensive Benchmarking**: Includes benchmark results on eight popular segmentation methods and six standard detection methods.
+- **Publicly Accessible**: The dataset is open for research and educational purposes. [Download it here](https://osf.io/pr7ms/).
 
-**Multi-Center Data:** Sourced from three medical centers in Norway, Sweden, and Vietnam.
-
-**High-Quality Annotations:** Verified by a team of 10 gastroenterologists with over 10 years of experience.
-
-**Comprehensive Benchmarking:** Includes benchmark results on eight popular segmentation methods and six standard detection methods.
-
-**Publicly Accessible:** The dataset is open for research and educational purposes. Download it here.
 
 **Dataset Structure**
 
 The dataset is organized into modality-wise and center-wise folders, each containing images and their corresponding ground truth annotations:
 
-**PolypDB/**
+**PolypDB Modality Based Structure**
 <pre>
  ├── BLI/
 │   ├── images/
@@ -41,38 +38,46 @@ The dataset is organized into modality-wise and center-wise folders, each contai
     └── annotations/
 </pre>
 
+**PolypDB Center-wise Structure**
+<pre>
+├── Simula/
+│   ├── images/
+│   ├── annotations/
+│   └── bounding_boxes/
+├── Karolinska/
+│   ├── images/
+│   ├── annotations/
+│   └── bounding_boxes/
+└── Vietnam/
+    ├── images/
+    ├── annotations/
+    └── bounding_boxes/
+ </pre>
+
 **Dataset samples**
 
 <p align="center">
-<img src="dataset_samples.jpg">
+<img src="dataset_samples.jpg" width="500">
 </p>
 
 ## Results
  ***Qualitative results comparison of the SOTA methods*** <br/>
 <p align="center">
-<img src="dataset_results.png">
+<img src="dataset_results.png" width="500">
 </p>
 
 
-****Polyp detection results ****<br/>
+**Polyp detection results**<br/>
 <p align="center">
-<img src="polyp-detection.jpg">
+<img src="polyp-detection.jpg" width="500">
 </p>
-
-    
-**Usage**
-To use this dataset, you can clone this repository and download the dataset from the official download link.
 
 **Download the dataset:**
 
-*Download the dataset and place it in the corresponding directories.*
-Here is the url to the dataset
+***Download the dataset and place it in the corresponding directories.***
+The dataset can be downloaded using [https://osf.io/pr7ms/](https://osf.io/pr7ms/). 
 
 ***If you use PolypDB in your research, please cite the following paper:**
-
-**Contributing**
-
-We welcome contributions to PolypDB! If you have any suggestions or improvements, please feel free to submit a pull request or open an issue.
 
 **License**
 
@@ -93,3 +98,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Contact**
 
 For any inquiries, please contact Debesh Jha (debesh.jha@usd.edu).
+
+**Contributing**
+
+We welcome contributions to PolypDB! If you have any suggestions or improvements, please feel free to submit a pull request or open an issue.
