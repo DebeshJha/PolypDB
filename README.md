@@ -1,6 +1,8 @@
 *****PolypDB: A Curated Multi-Center Dataset for Development of AI Algorithms in Colonoscopy*****
 
-The dataset can be downloaded at [Download it here](https://osf.io/pr7ms/).
+The dataset can be downloaded  [here](https://osf.io/pr7ms/).
+
+Please find the preprint link [here](https://arxiv.org/pdf/2409.00045)
 
 
 **Overview**
