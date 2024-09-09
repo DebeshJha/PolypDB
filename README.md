@@ -1,5 +1,7 @@
 *****PolypDB: A Curated Multi-Center Dataset for Development of AI Algorithms in Colonoscopy*****
 
+https://arxiv.org/pdf/2409.00045
+
 **Overview**
 
 PolypDB is a large-scale, multi-center, and multi-modality dataset designed for the development of advanced AI algorithms in colonoscopy. The dataset comprises 3,934 polyp images from various imaging modalities and medical centers, offering a rich resource for research in polyp detection and segmentation.
